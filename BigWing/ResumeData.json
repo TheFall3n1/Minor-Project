@@ -1,0 +1,62 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$id": "https://example.com/resume.schema.json",
+    "title": "Resume Details Record",
+    "description": "This document records all the details feeded by the user for their resume.",
+    "type": "object",
+    "properties": 
+    {
+        "id": 
+        {
+            "description": "A unique identifier for an user",
+            "type": "string"
+        },
+        "fname": 
+        {
+            "description": "First name of the employee",
+            "type": "string",
+            "minLength":2
+        },
+        "mob": 
+        {
+            "description": "Mobile number of the user",
+            "type": "number",
+            "minLength":6
+        },
+        "email": 
+        {
+            "description": "Email id of the user",
+            "type": "string",
+            "minLength":2
+        },
+        "d": 
+        {
+            "description": "Date of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "o": 
+        {
+            "description": "Month of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "b": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "age": 
+        {
+            "description": "age of the employee",
+            "type": "number",
+            "minimum": 16
+        }
+    },
+    "required": [
+        "id"  ,
+        "name",
+        "age"
+    ]
+}
