@@ -52,7 +52,7 @@
             "description": "age of the employee",
             "type": "number",
             "minimum": 16
-        }
+        } 
     },
     "required": [
         "id"  ,
