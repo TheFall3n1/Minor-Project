@@ -11,7 +11,7 @@
             "description": "A unique identifier for an user",
             "type": "string"
         },
-        "fname": 
+        "name": 
         {
             "description": "First name of the employee",
             "type": "string",
@@ -47,16 +47,202 @@
             "type": "number",
             "minLength":2
         },
-        "age": 
+        "loc1": 
         {
             "description": "age of the employee",
             "type": "number",
             "minimum": 16
-        } 
+        } ,
+        "grd": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "male": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "female": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "sing": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "marr": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "divo": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "comm": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "EdTime1": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "EdName1": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "EdTime2": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "EdName2": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "EdCol1": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "EdTime3": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "EdName3": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "EdCol2": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "wk1": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "wc1": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "wk2": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "wc2": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "wkt1": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "wkt2": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "wd1": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "wd2": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "ctc": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "skill1": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "skill2": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "skill3": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "skill4": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "skill5": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "skill6": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        },
+        "skill7": 
+        {
+            "description": "Year of birth of the user",
+            "type": "number",
+            "minLength":2
+        }
     },
     "required": [
         "id"  ,
         "name",
         "age"
-    ]
+    ] 
 }
