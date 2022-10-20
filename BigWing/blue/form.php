@@ -12,7 +12,7 @@
       <h4>Personal Details </h4>
         <div class="input-group.input-group-icon">
             <input (type="text", placeholder="Full Name", id="fname", name="fname">
-            <div class="input-icon">
+            <div class="input-icon"> 
                 <i class="i.fa.fa-user"></i>
             </div>
         </div>
