@@ -27,7 +27,7 @@
             <div class="input-icon">
                 <i class="i.fa.fa-envelope"></i>
             </div>
-        </div>
+        </div> 
         <div class="input-group.input-group-icon">
             <input (type="text", placeholder="Mobile No.", id="mob", name="mob")>
             <div class="input-icon">
